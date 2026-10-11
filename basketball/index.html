@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div id="wrapper-div">
+            <div class="ScoreCard">
+                <h2>Home</h2>
+                <h1 id="Home">0</h1>
+                <button class="inc-btn" onclick="incrementH(1)">+1</button>
+                <button class="inc-btn" onclick="incrementH(2)">+2</button>
+                <button class="inc-btn" onclick="incrementH(3)">+3</button>
+            </div>
+            <button id="reset" onclick="reset()">New Game</button>
+            <div class="ScoreCard">
+                <h2>Away</h2>
+                <h1 id="Away">0</h1>
+                <button class="inc-btn" onclick="incrementA(1)">+1</button>
+                <button class="inc-btn" onclick="incrementA(2)">+2</button>
+                <button class="inc-btn" onclick="incrementA(3)">+3</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
