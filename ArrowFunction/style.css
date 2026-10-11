@@ -1,0 +1,15 @@
+#labels-container{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(1, 5fr);
+    background-color: beige;
+    height: 500px;
+}
+
+#a0{
+    grid-column: 1/3
+}
+
+#a1{
+    grid-column: 10/11;
+}
