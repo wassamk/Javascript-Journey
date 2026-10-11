@@ -1,0 +1,15 @@
+#wrapper-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+input {
+    width: 200px;
+    margin: 10px;
+}
+
+input[type="radio"]{
+    margin: 2px;
+}
