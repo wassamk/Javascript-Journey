@@ -1,0 +1,60 @@
+#mdiv{
+    display: block;
+    margin: 10px auto;
+    width: 500px;
+    height: 500px;
+    background-color:rgb(68, 68, 68);
+    padding: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(12,1fr);
+}
+
+
+section{
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 3px auto;
+    width: 400px;
+}
+
+p{
+    text-align: center;
+}
+
+#contact{
+    grid-template-rows: 1 / 3;
+    margin: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#wrapper{
+    grid-template-rows: 4/6;
+    display: flex;
+    margin: 20px 0px;
+    height: 30px;
+    justify-content: center;
+    padding: 10px 0px; 
+    border-bottom: 2px solid rgb(224, 17, 97);
+}
+
+#searchbar{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 300px;
+}
+
+#search-btn{
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    border: 0px;
+    background-color: rgb(224, 17, 97);;
+}
+
+#search-btn:active{
+    transform: scale(0.97);
+}
+
